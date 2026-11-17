@@ -1,6 +1,0 @@
-101|Arrays|1|15|5
-102|Sorting|2|25|9
-103|Graphs|3|40|12
-104|Dynamic Programming|3|35|13
-105|Strings|1|10|4
-106|Greedy|2|20|8
