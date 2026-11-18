@@ -1,0 +1,7 @@
+build/
+logs/*.log
+data/*.db
+data/*.db-wal
+data/*.db-shm
+.vs/
+.vscode/
