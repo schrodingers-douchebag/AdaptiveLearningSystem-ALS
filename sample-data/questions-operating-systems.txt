@@ -1,0 +1,47 @@
+# Sample question file for the "Import questions" button.
+# Create a course named "Operating Systems" (or any name), open it, and import this file.
+
+TOPIC: Processes
+DIFFICULTY: 1
+Q: What is a process?
+A) A file stored on disk
+B) A program in execution
+C) A kind of network packet
+D) A compiler flag
+ANSWER: B
+
+TOPIC: Processes
+DIFFICULTY: 2
+Q: Which state means a process is waiting for the CPU?
+A) Running
+B) Terminated
+C) Ready
+D) New
+ANSWER: C
+
+TOPIC: Memory
+DIFFICULTY: 2
+Q: What does the MMU do?
+A) Translates virtual addresses to physical addresses
+B) Schedules threads
+C) Stores files on disk
+D) Compiles code
+ANSWER: A
+
+TOPIC: Memory
+DIFFICULTY: 3
+Q: What happens on a page fault?
+A) The computer shuts down
+B) The OS loads the needed page into memory
+C) The process is always killed
+D) The CPU clock stops
+ANSWER: B
+
+TOPIC: Scheduling
+DIFFICULTY: 3
+Q: Which scheduling algorithm gives each process a fixed time slice in turn?
+A) First-Come First-Served
+B) Shortest Job First
+C) Round Robin
+D) Priority Scheduling
+ANSWER: C

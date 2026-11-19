@@ -1,0 +1,13 @@
+Operating Systems - Week 1 notes
+
+1. Process vs thread
+A process is a program in execution with its own address space.
+A thread is a unit of execution inside a process; threads of one process share memory.
+
+2. Process states
+New -> Ready -> Running -> Waiting -> Terminated.
+The scheduler moves processes between Ready and Running.
+
+3. Virtual memory
+The MMU translates virtual addresses to physical addresses.
+A page fault happens when a needed page is not in RAM; the OS loads it from disk.
