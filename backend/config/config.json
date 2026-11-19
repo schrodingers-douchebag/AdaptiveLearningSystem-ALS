@@ -1,0 +1,10 @@
+{
+  "port": 8080,
+  "db_path": "data/adaptive_learning.db",
+  "seed_file": "data/seed_questions.json",
+  "log_file": "logs/app.log",
+  "cors_origin": "http://localhost:5173",
+  "jwt_secret": "CHANGE-ME-set-JWT_SECRET-env-var-in-real-use",
+  "jwt_ttl_minutes": 120,
+  "seed_demo_users": true
+}

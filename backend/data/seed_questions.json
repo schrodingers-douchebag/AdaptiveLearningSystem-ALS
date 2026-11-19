@@ -1,0 +1,392 @@
+[
+ {
+  "subject": "Data Structures",
+  "topic": "Arrays",
+  "difficulty": 1,
+  "text": "What is the index of the first element of a C array?",
+  "options": [
+   "It depends on the type",
+   "1",
+   "0",
+   "-1"
+  ],
+  "answer": 2
+ },
+ {
+  "subject": "Data Structures",
+  "topic": "Arrays",
+  "difficulty": 2,
+  "text": "What is the time complexity of reading arr[i] by index?",
+  "options": [
+   "O(n)",
+   "O(log n)",
+   "O(n^2)",
+   "O(1)"
+  ],
+  "answer": 3
+ },
+ {
+  "subject": "Data Structures",
+  "topic": "Arrays",
+  "difficulty": 3,
+  "text": "Inserting a value at the beginning of an array of n elements (shifting the rest) costs:",
+  "options": [
+   "O(1)",
+   "O(n)",
+   "O(n log n)",
+   "O(log n)"
+  ],
+  "answer": 1
+ },
+ {
+  "subject": "Data Structures",
+  "topic": "Arrays",
+  "difficulty": 4,
+  "text": "For `int arr[10];` declared in the same scope, what does sizeof(arr) / sizeof(arr[0]) give?",
+  "options": [
+   "It is undefined",
+   "4",
+   "10",
+   "40"
+  ],
+  "answer": 2
+ },
+ {
+  "subject": "Data Structures",
+  "topic": "Arrays",
+  "difficulty": 5,
+  "text": "Kadane's algorithm finds the maximum subarray sum in:",
+  "options": [
+   "O(n^2)",
+   "O(n)",
+   "O(n log n)",
+   "O(2^n)"
+  ],
+  "answer": 1
+ },
+ {
+  "subject": "Data Structures",
+  "topic": "Linked lists",
+  "difficulty": 1,
+  "text": "Each node of a singly linked list stores its data and:",
+  "options": [
+   "The list size",
+   "A hash key",
+   "A pointer to the next node",
+   "The array index"
+  ],
+  "answer": 2
+ },
+ {
+  "subject": "Data Structures",
+  "topic": "Linked lists",
+  "difficulty": 2,
+  "text": "Inserting at the head of a singly linked list takes:",
+  "options": [
+   "O(n)",
+   "O(n^2)",
+   "O(log n)",
+   "O(1)"
+  ],
+  "answer": 3
+ },
+ {
+  "subject": "Data Structures",
+  "topic": "Linked lists",
+  "difficulty": 3,
+  "text": "Which technique finds the middle node of a linked list in a single pass?",
+  "options": [
+   "Copying it into a stack",
+   "Slow and fast pointers",
+   "Sorting the list first",
+   "Binary search"
+  ],
+  "answer": 1
+ },
+ {
+  "subject": "Data Structures",
+  "topic": "Linked lists",
+  "difficulty": 4,
+  "text": "Reversing a singly linked list iteratively needs how much extra space?",
+  "options": [
+   "O(n)",
+   "O(log n)",
+   "O(1)",
+   "O(n^2)"
+  ],
+  "answer": 2
+ },
+ {
+  "subject": "Data Structures",
+  "topic": "Linked lists",
+  "difficulty": 5,
+  "text": "Floyd's algorithm detects a cycle in a linked list using how much extra space?",
+  "options": [
+   "O(n)",
+   "O(n^2)",
+   "O(log n)",
+   "O(1)"
+  ],
+  "answer": 3
+ },
+ {
+  "subject": "Data Structures",
+  "topic": "Stacks",
+  "difficulty": 1,
+  "text": "A stack follows which order?",
+  "options": [
+   "Sorted order",
+   "LIFO",
+   "FIFO",
+   "Random order"
+  ],
+  "answer": 1
+ },
+ {
+  "subject": "Data Structures",
+  "topic": "Stacks",
+  "difficulty": 2,
+  "text": "Which operation removes the top element of a stack?",
+  "options": [
+   "enqueue",
+   "push",
+   "peek",
+   "pop"
+  ],
+  "answer": 3
+ },
+ {
+  "subject": "Data Structures",
+  "topic": "Stacks",
+  "difficulty": 3,
+  "text": "Which structure is the natural choice for checking balanced parentheses?",
+  "options": [
+   "Hash table",
+   "Heap",
+   "Stack",
+   "Queue"
+  ],
+  "answer": 2
+ },
+ {
+  "subject": "Data Structures",
+  "topic": "Stacks",
+  "difficulty": 4,
+  "text": "Evaluating the postfix expression `2 3 4 * +` gives:",
+  "options": [
+   "20",
+   "9",
+   "14",
+   "24"
+  ],
+  "answer": 2
+ },
+ {
+  "subject": "Data Structures",
+  "topic": "Stacks",
+  "difficulty": 5,
+  "text": "The 'next greater element' problem can be solved in O(n) using:",
+  "options": [
+   "Two nested loops",
+   "Merge sort",
+   "A binary heap",
+   "A monotonic stack"
+  ],
+  "answer": 3
+ },
+ {
+  "subject": "Algorithms",
+  "topic": "Graphs",
+  "difficulty": 1,
+  "text": "A graph is made of:",
+  "options": [
+   "Vertices and edges",
+   "Rows and columns",
+   "Keys and values",
+   "Stacks and queues"
+  ],
+  "answer": 0
+ },
+ {
+  "subject": "Algorithms",
+  "topic": "Graphs",
+  "difficulty": 2,
+  "text": "Which graph traversal uses a queue?",
+  "options": [
+   "BFS",
+   "Neither",
+   "DFS",
+   "Both use a stack"
+  ],
+  "answer": 0
+ },
+ {
+  "subject": "Algorithms",
+  "topic": "Graphs",
+  "difficulty": 3,
+  "text": "Adjacency-list space for V vertices and E edges is:",
+  "options": [
+   "O(V log E)",
+   "O(V + E)",
+   "O(V^2)",
+   "O(E^2)"
+  ],
+  "answer": 1
+ },
+ {
+  "subject": "Algorithms",
+  "topic": "Graphs",
+  "difficulty": 4,
+  "text": "Dijkstra's algorithm can give wrong answers on graphs with:",
+  "options": [
+   "Directed edges",
+   "Negative edge weights",
+   "Parallel edges",
+   "Cycles"
+  ],
+  "answer": 1
+ },
+ {
+  "subject": "Algorithms",
+  "topic": "Graphs",
+  "difficulty": 5,
+  "text": "Bellman-Ford runs in:",
+  "options": [
+   "O(V^2 log V)",
+   "O(V + E)",
+   "O(E log V)",
+   "O(V * E)"
+  ],
+  "answer": 3
+ },
+ {
+  "subject": "Algorithms",
+  "topic": "Recursion",
+  "difficulty": 1,
+  "text": "Every recursive function needs a:",
+  "options": [
+   "Base case",
+   "Global variable",
+   "Loop",
+   "Pointer parameter"
+  ],
+  "answer": 0
+ },
+ {
+  "subject": "Algorithms",
+  "topic": "Recursion",
+  "difficulty": 2,
+  "text": "With factorial(0) = 1 and factorial(n) = n * factorial(n-1), what is factorial(4)?",
+  "options": [
+   "10",
+   "24",
+   "12",
+   "16"
+  ],
+  "answer": 1
+ },
+ {
+  "subject": "Algorithms",
+  "topic": "Recursion",
+  "difficulty": 3,
+  "text": "The naive recursive Fibonacci fib(n) = fib(n-1) + fib(n-2) takes what kind of time?",
+  "options": [
+   "Quadratic",
+   "Linear",
+   "Logarithmic",
+   "Exponential"
+  ],
+  "answer": 3
+ },
+ {
+  "subject": "Algorithms",
+  "topic": "Recursion",
+  "difficulty": 4,
+  "text": "Which technique stores results of repeated recursive calls to avoid recomputing them?",
+  "options": [
+   "Divide and conquer",
+   "Memoization",
+   "Greedy choice",
+   "Backtracking"
+  ],
+  "answer": 1
+ },
+ {
+  "subject": "Algorithms",
+  "topic": "Recursion",
+  "difficulty": 5,
+  "text": "The minimum number of moves for the Tower of Hanoi with n disks is:",
+  "options": [
+   "2n",
+   "2^n - 1",
+   "n^2",
+   "n!"
+  ],
+  "answer": 1
+ },
+ {
+  "subject": "Algorithms",
+  "topic": "Sorting",
+  "difficulty": 1,
+  "text": "Which sort repeatedly swaps adjacent out-of-order elements?",
+  "options": [
+   "Heap sort",
+   "Merge sort",
+   "Quick sort",
+   "Bubble sort"
+  ],
+  "answer": 3
+ },
+ {
+  "subject": "Algorithms",
+  "topic": "Sorting",
+  "difficulty": 2,
+  "text": "The best case of insertion sort (already sorted input) is:",
+  "options": [
+   "O(n)",
+   "O(n^2)",
+   "O(n log n)",
+   "O(log n)"
+  ],
+  "answer": 0
+ },
+ {
+  "subject": "Algorithms",
+  "topic": "Sorting",
+  "difficulty": 3,
+  "text": "The worst-case time of merge sort is:",
+  "options": [
+   "O(n log n)",
+   "O(n)",
+   "O(n^2)",
+   "O(log n)"
+  ],
+  "answer": 0
+ },
+ {
+  "subject": "Algorithms",
+  "topic": "Sorting",
+  "difficulty": 4,
+  "text": "Quick sort hits its worst case when the pivot is:",
+  "options": [
+   "Chosen at random",
+   "Always the median",
+   "Exactly in the middle",
+   "Always the smallest or largest element"
+  ],
+  "answer": 3
+ },
+ {
+  "subject": "Algorithms",
+  "topic": "Sorting",
+  "difficulty": 5,
+  "text": "Which of these sorting algorithms is NOT comparison-based?",
+  "options": [
+   "Merge sort",
+   "Counting sort",
+   "Heap sort",
+   "Insertion sort"
+  ],
+  "answer": 1
+ }
+]
